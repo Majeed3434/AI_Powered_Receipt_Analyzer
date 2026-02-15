@@ -150,7 +150,7 @@ with st.sidebar:
     user_income = st.number_input(
         "Monthly Income ($)",
         min_value=0.0,
-        value=5000.0,
+        value=0.0,
         step=100.0
     )
 
